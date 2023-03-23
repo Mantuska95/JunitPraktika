@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff213b14-4f80-4d61-ac4f-3c8ee3587a7d" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/CalculatorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/eu/codeacademy/javaua2/CalculatorServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="ff213b14-4f80-4d61-ac4f-3c8ee3587a7d" name="Changes" comment="Junit test for execptions and methods">
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/eu/codeacademy/javaua2/BankAccountTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eu/codeacademy/javaua2/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/eu/codeacademy/javaua2/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/eu/codeacademy/javaua2/CalculatorServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/eu/codeacademy/javaua2/CalculatorServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -55,7 +53,17 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.CalculatorServiceTest.calculateTestMultiplyBy0">
+  <component name="RunManager" selected="JUnit.BankAccount">
+    <configuration name="BankAccount" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="JunitPamoka" />
+      <option name="PACKAGE_NAME" value="eu.codeacademy.javaua2" />
+      <option name="MAIN_CLASS_NAME" value="eu.codeacademy.javaua2.BankAccountTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculatorServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JunitPamoka" />
       <extension name="coverage">
@@ -128,29 +136,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorServiceTest.findMaxValueTestOneNumberInArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JunitPamoka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="eu.codeacademy.javaua2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="eu.codeacademy.javaua2" />
-      <option name="MAIN_CLASS_NAME" value="eu.codeacademy.javaua2.CalculatorServiceTest" />
-      <option name="METHOD_NAME" value="findMaxValueTestOneNumberInArray" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BankAccount" />
+        <item itemvalue="JUnit.CalculatorServiceTest" />
         <item itemvalue="JUnit.CalculatorServiceTest.calculateTestMultiplyBy0" />
         <item itemvalue="JUnit.CalculatorServiceTest.calculateTestException" />
-        <item itemvalue="JUnit.CalculatorServiceTest" />
         <item itemvalue="JUnit.CalculatorServiceTest.calculateTestPlus" />
-        <item itemvalue="JUnit.CalculatorServiceTest.findMaxValueTestOneNumberInArray" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +155,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679504400032</updated>
       <workItem from="1679504401792" duration="1963000" />
-      <workItem from="1679506458703" duration="5634000" />
+      <workItem from="1679506458703" duration="10778000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1679504778420</created>
@@ -172,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679504778420</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Junit test for execptions and methods">
+      <created>1679513722291</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679513722291</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,17 +190,33 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="Junit test for execptions and methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Junit test for execptions and methods" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/eu/codeacademy/javaua2/BankAccountTest.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/JunitPamoka$CalculatorServiceTest.ic" NAME="CalculatorServiceTest Coverage Results" MODIFIED="1679512543532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/JunitPamoka$BankAccountTest.ic" NAME="BankAccountTest Coverage Results" MODIFIED="1679591062143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>eu.codeacademy.javaua2.*</FILTER>
-      <FILTER>service.*</FILTER>
-      <FILTER>*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/JunitPamoka$CalculatorServiceTest_calculateTestMultiplyBy0.ic" NAME="CalculatorServiceTest.calculateTestMultiplyBy0 Coverage Results" MODIFIED="1679513288002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>eu.codeacademy.javaua2.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/JunitPamoka$CalculatorServiceTest.ic" NAME="CalculatorServiceTest Coverage Results" MODIFIED="1679587921966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>eu.codeacademy.javaua2.*</FILTER>
+      <FILTER>service.*</FILTER>
+      <FILTER>*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JunitPamoka$BankAccount.ic" NAME="BankAccount Coverage Results" MODIFIED="1679591224925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/JunitPamoka$CalculatorServiceTest_calculateTestPlus.ic" NAME="CalculatorServiceTest.calculateTestPlus Coverage Results" MODIFIED="1679511271828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>eu.codeacademy.javaua2.*</FILTER>
     </SUITE>
