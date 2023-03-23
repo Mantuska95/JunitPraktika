@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff213b14-4f80-4d61-ac4f-3c8ee3587a7d" name="Changes" comment="Junit test for execptions and methods">
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/eu/codeacademy/javaua2/BankAccountTest.java" afterDir="false" />
+    <list default="true" id="ff213b14-4f80-4d61-ac4f-3c8ee3587a7d" name="Changes" comment="added BankAccount class and did test for it">
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/FibonacciNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/eu/codeacademy/javaua2/FibonacciTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/eu/codeacademy/javaua2/CalculatorServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/eu/codeacademy/javaua2/CalculatorServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.BankAccount">
+  <component name="RunManager" selected="JUnit.FibonacciTest">
     <configuration name="BankAccount" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="JunitPamoka" />
       <option name="PACKAGE_NAME" value="eu.codeacademy.javaua2" />
@@ -88,39 +88,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorServiceTest.calculateTestException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FibonacciNumbers" type="JUnit" factoryName="JUnit" activateToolWindowBeforeRun="false" temporary="true">
       <module name="JunitPamoka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="eu.codeacademy.javaua2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="PACKAGE_NAME" value="eu.codeacademy.javaua2" />
-      <option name="MAIN_CLASS_NAME" value="eu.codeacademy.javaua2.CalculatorServiceTest" />
-      <option name="METHOD_NAME" value="calculateTestException" />
+      <option name="MAIN_CLASS_NAME" value="eu.codeacademy.javaua2.FibonacciTest" />
+      <option name="METHOD_NAME" value="fibonacciSequenceFirstElementTest" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorServiceTest.calculateTestMultiplyBy0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FibonacciTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JunitPamoka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="eu.codeacademy.javaua2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="PACKAGE_NAME" value="eu.codeacademy.javaua2" />
-      <option name="MAIN_CLASS_NAME" value="eu.codeacademy.javaua2.CalculatorServiceTest" />
-      <option name="METHOD_NAME" value="calculateTestMultiplyBy0" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="eu.codeacademy.javaua2.FibonacciTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorServiceTest.calculateTestPlus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FibonacciTest.fibonacciSequenceSeventhElementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JunitPamoka" />
       <extension name="coverage">
         <pattern>
@@ -129,8 +120,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="eu.codeacademy.javaua2" />
-      <option name="MAIN_CLASS_NAME" value="eu.codeacademy.javaua2.CalculatorServiceTest" />
-      <option name="METHOD_NAME" value="calculateTestPlus" />
+      <option name="MAIN_CLASS_NAME" value="eu.codeacademy.javaua2.FibonacciTest" />
+      <option name="METHOD_NAME" value="fibonacciSequenceSeventhElementTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FibonacciTest" />
+        <item itemvalue="JUnit.FibonacciNumbers" />
+        <item itemvalue="JUnit.FibonacciTest.fibonacciSequenceSeventhElementTest" />
         <item itemvalue="JUnit.BankAccount" />
         <item itemvalue="JUnit.CalculatorServiceTest" />
-        <item itemvalue="JUnit.CalculatorServiceTest.calculateTestMultiplyBy0" />
-        <item itemvalue="JUnit.CalculatorServiceTest.calculateTestException" />
-        <item itemvalue="JUnit.CalculatorServiceTest.calculateTestPlus" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +146,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679504400032</updated>
       <workItem from="1679504401792" duration="1963000" />
-      <workItem from="1679506458703" duration="10778000" />
+      <workItem from="1679506458703" duration="13667000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1679504778420</created>
@@ -171,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679513722291</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added BankAccount class and did test for it">
+      <created>1679592634301</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679592634301</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,23 +189,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="Junit test for execptions and methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Junit test for execptions and methods" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/eu/codeacademy/javaua2/BankAccountTest.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="added BankAccount class and did test for it" />
+    <option name="LAST_COMMIT_MESSAGE" value="added BankAccount class and did test for it" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JunitPamoka$BankAccountTest.ic" NAME="BankAccountTest Coverage Results" MODIFIED="1679591062143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>eu.codeacademy.javaua2.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/JunitPamoka$FibonacciTest_fibonacciSequenceFirstElementTest.ic" NAME="FibonacciTest.fibonacciSequenceFirstElementTest Coverage Results" MODIFIED="1679594796417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>eu.codeacademy.javaua2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JunitPamoka$FibonacciTest_fibonacciSequenceSeventhElementTest.ic" NAME="FibonacciTest.fibonacciSequenceSeventhElementTest Coverage Results" MODIFIED="1679594393378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>eu.codeacademy.javaua2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JunitPamoka$FibonacciTest.ic" NAME="FibonacciTest Coverage Results" MODIFIED="1679595097327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/JunitPamoka$CalculatorServiceTest_calculateTestMultiplyBy0.ic" NAME="CalculatorServiceTest.calculateTestMultiplyBy0 Coverage Results" MODIFIED="1679513288002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>eu.codeacademy.javaua2.*</FILTER>
     </SUITE>
